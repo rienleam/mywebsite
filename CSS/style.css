@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(132, 204, 204);
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(15, 15, 68);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.nav-left{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right{
+    width: 35%;
+    display: flex;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 25px;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-right button{
+    width: 40%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+}
+.submit button{
+    width: 48%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+}
+.submit button:nth-of-type(1){
+    background-color: orange;
+}
+.nav-right button:nth-of-type(1){
+    background-color: orange;
+}
+.nav-right button:nth-of-type(2){
+    color: white;
+    background-color: rgb(25, 25, 107);
+}
+.profile{
+    width: 100%;
+    display: flex;
+}
+.picture{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    width: 380px;
+    border-radius: 200px;
+}
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.menu-icon{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-icon img{
+    width: 40px;
+}
+.contrast{
+    text-align: left;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.picture, .info, .menu-icon{
+    margin: 20px 0px 20px 0px;
+}
+.submit{
+    margin-top: 20px;
+}
+.choose{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question p{
+    font-size: 25px;
+}
+.reason{
+    display: flex;
+    justify-content: space-between;
+}
+.first-reason, .second-reason, .third-reason{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 136);
+    margin-bottom: 60px;
+}
+.the-icon img{
+    width: 60px;
+}
+.icon-text{
+    display: flex;
+}
+.the-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the-reason{
+    margin-top: 20px;
+}
+.icon-text{
+    padding: 40px 40px 5px 40px;
+}
+.the-reason{
+    padding: 0px 40px 40px 40px;
+}
+.first-reason{
+    border-radius: 0px 20px 20px 0px;
+}
+.second-reason{
+    border-radius: 20px 20px 20px 20px;
+}
+.third-reason{
+    border-radius: 20px 0px 0px 20px;
+}
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.each-product img{
+    width: 250px;
+}
+.the-title{
+    width: 15%;
+}
+.title-button{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.the-title button{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: orange;
+}
+.each-product{
+    width: 15%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(32, 32, 122);
+}
+.food-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.cost{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.the-picture{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    margin-bottom: 70px;
+    background: url(../flatten.jpg) no-repeat;
+}
+.on-back{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+}
+.the-pic{
+    font-size: 80px;
+    font-weight: bold;
+}
+.on-back button{
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 40px;
+}
